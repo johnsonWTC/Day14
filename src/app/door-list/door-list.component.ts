@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Door } from '../Door';
 
 @Component({
   selector: 'app-door-list',
@@ -9,6 +10,7 @@ export class DoorListComponent implements OnInit {
 
   constructor() { }
 
+  @Input() doors : Door[] | undefined;
   ngOnInit(): void {
   }
 

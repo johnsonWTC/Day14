@@ -25,7 +25,5 @@ export class DoorComponent implements OnInit {
         Color: "Black"
       }
     ]
-
   }
-
 }

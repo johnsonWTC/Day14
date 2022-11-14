@@ -1,1 +1,8 @@
-<p>door-list works!</p>
+<table>
+    <th>Size</th>
+    <th>Color</th>
+    <tr *ngFor="let do of doors">
+        <td>{{do.Color}}</td>
+        <td>{{do.Size}}</td>
+    </tr>
+</table>
