@@ -17,14 +17,14 @@ export class DoorComponent implements OnInit {
       {
         Size: 20,
         Color: "Red"
-      },{
+      }, {
         Size: 10,
         Color: "Blue"
-      },{
+      }, {
         Size: 5,
         Color: "Black"
       }
-]
+    ]
 
   }
 
