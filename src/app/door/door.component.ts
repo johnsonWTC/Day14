@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Door } from '../Door';
 
 @Component({
   selector: 'app-door',
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class DoorComponent implements OnInit {
 
   constructor() { }
+
+  Doorlist : Door[] = [];
 
   ngOnInit(): void {
   }
