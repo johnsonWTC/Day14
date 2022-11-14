@@ -13,6 +13,19 @@ export class DoorComponent implements OnInit {
   Doorlist : Door[] = [];
 
   ngOnInit(): void {
+    this.Doorlist = [
+      {
+        Size: 20,
+        Color: "Red"
+      },{
+        Size: 10,
+        Color: "Blue"
+      },{
+        Size: 5,
+        Color: "Black"
+      }
+]
+
   }
 
 }
